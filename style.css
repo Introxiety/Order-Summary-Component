@@ -175,11 +175,13 @@ footer >button:nth-child(1){
     background-color: rgba(56,42,225,255);
     color: white;
     border-radius: .8em;
+    border:none;
 }
 
 footer >button:nth-child(2){
     border: none;
     color: gray;
+   background-color:white;
 }
 
 .action-hover:hover{
