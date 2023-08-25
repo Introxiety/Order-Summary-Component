@@ -86,7 +86,7 @@ body{
 }
 
 .container{
-    max-width: 25rem;
+    max-width: 27rem;
     border-radius: 1.5em;
     background-color: #ffffff;
     display: flex;
@@ -133,13 +133,13 @@ main h1{
     align-items: center;
     background-color: #f8f9fe;
     border-radius: 1em;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .container-left-priceplan{
     display: flex;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
 }
 
 .container a{
