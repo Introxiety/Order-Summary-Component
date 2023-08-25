@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,23 +18,36 @@
   </style>
 </head>
 <body>
-
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
+  <div class="container">
+    <header>
+        <img src="images/illustration-hero.svg" alt="" class="header-img">
+    </header>
+    <main>
+      <h1>Order Summary</h1>
+      <p class="main-content">You can now listen to millions of songs, audiobooks, and podcasts on any 
+        device anywhere you like!</p>
+      <div class="container-priceplan">
+        <div class="container-left-priceplan">
+          <img src="images/icon-music.svg" alt="icon-music">
+          <div class="container-text-column">
+          <p>Annual Plan</p>
+          <p>$59.99/year</p>
+          </div>
+        </div>
+        <a href="" class="action-hover">Change</a>
+      </div>
+    </main>
+    <footer class="container-button">
+      <button class="action-hover">Proceed to Payment</button>
+      <button class="action-hover">Cancel Order</button>
+    </footer>
+  </div>
   
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
+
+  <script src="app.js"></script>
 </body>
 </html>
